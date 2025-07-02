@@ -1,0 +1,72 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #fff8e7;
+  border-bottom: 1px solid #ccc;
+  height:80px;
+}
+
+.logo img{
+ width:110px;
+ height:80px;
+ object-fit: cover;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-btn {
+  padding: 0.3rem 0.8rem;
+  background: #4b3c2d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height:30px;
+}
+
+.cart-dropdown {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  width: 250px;
+  z-index: 10;
+}
+
+.cart-dropdown ul {
+  padding: 0;
+  list-style: none;
+}
+
+.total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.checkout-btn {
+  margin-top: 10px;
+  padding: 0.5rem;
+  width: 100%;
+  background: #5c422d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
