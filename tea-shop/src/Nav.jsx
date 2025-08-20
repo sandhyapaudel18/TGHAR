@@ -40,6 +40,7 @@ function Nav({ cartCount, cart, toggleCart, showCart, isLoggedIn, toggleLogin, o
                 ))}
               </ul>
               <p className="total">Total: ${total}</p>
+              
               <button className="checkout-btn" onClick={onCheckout}>Checkout</button>
             </>
           )}
